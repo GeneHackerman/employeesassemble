@@ -138,7 +138,7 @@ const addEmploye = () => {
             name: 'github',
             message: "Please enter the employee's github username.",
             when: (input) => input.role === "Engineer",
-            validate = nameInput => {
+            validate: nameInput => {
                 if (nameInput) {
                     return true;
                 } else {
