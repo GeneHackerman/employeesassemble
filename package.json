@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  },
+  "name": "employeesassemble",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeneHackerman/employeesassemble.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeneHackerman/employeesassemble/issues"
+  },
+  "homepage": "https://github.com/GeneHackerman/employeesassemble#readme"
+}
