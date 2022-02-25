@@ -1,3 +1,7 @@
+// node modules
+const fs = require('fs');
+const inquirer = require('inquirer');
+
 // link to page creation
 const generateHTML = require('./src/generateHTML');
 
@@ -6,9 +10,7 @@ const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
 
-// node modules
-const fs = require('fs');
-const inquirer = require('inquirer');
+
 
 // team array
 const teamArray = [];
@@ -79,7 +81,7 @@ const addManager = () => {
     })
 };
 
-const addEmploye = () => {
+const addEmployee = () => {
     console.log(`
     =====================
     Adding employees to the team
